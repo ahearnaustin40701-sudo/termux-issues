@@ -18,6 +18,12 @@ body:
         Issues without proper description will be closed without solution.
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        - [ ] I attached output of `termux-info`.
+        - [ ] I pasted the exact command(s) I ran and the full stdout/stderr output in a code block.
   - type: textarea
     attributes:
       label: What steps will reproduce the bug?
